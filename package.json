@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-trial",
+  "version": "1.0.0",
+  "description": "My exquisite Nuxt.js project",
+  "author": "yospig",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "generate": "nuxt-ts generate",
+    "start": "nuxt-ts start",
+    "lint": "eslint --ext .ts,.js,.vue .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "@nuxt/typescript-runtime": "latest",
+    "nuxt": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "latest",
+    "@nuxtjs/eslint-config": "^2.0.0",
+    "@nuxtjs/eslint-config-typescript": "^1.0.2",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "@vue/test-utils": "^1.0.0-beta.27",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-nuxt": ">=0.4.2",
+    "eslint-plugin-prettier": "^3.1.2",
+    "jest": "^24.1.0",
+    "prettier": "^1.19.1",
+    "vue-jest": "^4.0.0-0"
+  }
+}
